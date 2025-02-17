@@ -1,0 +1,150 @@
+.body-class {
+    background-color: #f4f4f4;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+.header-class {
+    background-color: #0066ff;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+.title-class {
+    font-size: 32px;
+}
+
+.nav-class {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-class a {
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.nav-class a:hover {
+    background-color: #333333;
+}
+
+.nav-class a.active {
+    font-weight: bold;
+}
+
+.hero-section-class, .origin-section-class, .testimonial-section-class, .faq-section-class, .newsletter-section-class, .contact-section-class {
+    padding: 20px;
+}
+
+.section-title-class {
+    color: #0066ff;
+    font-size: 28px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.text-class {
+    color: #333333;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.image-class {
+    border: 5px solid #0066ff;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.blockquote-class {
+    font-style: italic;
+    color: #555555;
+}
+
+.cite-class {
+    color: #006699;
+}
+
+.faq-class {
+    margin-bottom: 15px;
+}
+
+.faq-question-class {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.form-class {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.form-class input[type="text"], .form-class input[type="email"], .form-class input[type="password"], .form-class textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-class input[type="submit"], .button-class {
+    background-color: #0044cc;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.form-class input[type="submit"]:hover, .button-class:hover {
+    background-color: #003399;
+}
+
+.footer-class {
+    background-color: #bbbbbb;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+    .body-class {
+        font-size: 14px;
+    }
+
+    .header-class {
+        font-size: 20px;
+    }
+
+    .nav-class {
+        padding: 15px;
+    }
+
+    .nav-class a {
+        padding: 8px 15px;
+    }
+
+    .form-class {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .footer-class {
+        font-size: 12px;
+    }
+}
